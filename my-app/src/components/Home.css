@@ -1,0 +1,19 @@
+.home_container{
+    background-color: rgb(241, 245, 245);
+    z-index: -1000;
+}
+
+.howitworks_container{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.information_container{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.createaccount_container{
+    border: 1px solid black;
+    height: 100vh;
+}

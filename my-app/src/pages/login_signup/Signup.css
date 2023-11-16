@@ -1,0 +1,178 @@
+.login_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:  #017547b1;
+  color: white;
+}
+
+.login_nav .right_text{
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  width: 60%;
+  font-size: larger;
+}
+.login_nav .right_text p{
+  margin-right: 3%;
+}
+
+/* ===================================================== */
+.signup_container {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-evenly;
+    background: whitesmoke;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  }
+  
+ .signup_container .login_img {
+  width: 40%;
+  /* border: 1px solid red; */
+  }
+ .signup_container .login_img img {
+  width: 100%;
+  /* border: 1px solid red; */
+  }
+
+ 
+
+ .signup_container .form_container .header {
+    text-align: center;
+    color:  #017547b1;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  }
+ .signup_container .form_container .header span{
+    font-size: 20px;
+  }
+  
+ .signup_container .form_container .inputs {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .signup_container .form_container .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 439px;
+    height: 42x;
+    background: #eaeaea;
+    border-radius: 6px;
+    position: relative; 
+  }
+  
+  .signup_container .form_container .input img {
+    margin: 0px 19px;
+  }
+  
+  .form_container .input input {
+    height: 38px;
+    width: 375px; 
+    background: white;
+    border: 1px solid #979696;
+    color: #797979;
+    font-size: 19px;
+  }
+  
+  .signup_container .form_container .password-toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 24px; 
+  height: 24px;
+  fill: #000; 
+}
+  
+  .signup_container .form_container .forgot-password {
+    padding-left: 62px;
+    margin-top: 25px;
+    margin-left: 18px;
+    color: #797979;
+    font-size: 18px;
+  }
+  .signup_container .form_container .forgot-password .links{
+    text-decoration: none;
+    color: rgb(111, 165, 237);
+  }
+  .signup_container .form_container .forgot-password span{
+    color: #797979;
+  }
+  
+  
+  .signup_container .form_container .submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 24px auto;
+    
+  }
+  
+ .signup_container .form_container .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 59px;
+    color: #fff;
+    background-color: #1aae73b1;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .signup_container .form_container .gray {
+    background: rgb(119, 164, 224);
+    color: white;
+  }
+  .signup_container .form_container .submit:hover{
+     background-color: #1f8b60b1;
+   }
+  
+  .signup_container .form_container .gray:hover {
+    background: rgb(69, 127, 201);
+    color: white;
+  }
+  
+
+
+/* ======================================================================================== */
+
+
+ .signup_container .password-strength {
+    margin-top: 1px;
+    margin-left:80px; 
+    font-weight: 7000;
+    font-size: large;
+    color: #797979;
+    align-items: center;
+  }
+  
+ .signup_container .password-strength .red {
+    color: red;
+  }
+  
+ .signup_container .password-strength .blue {
+    color: rgb(10, 96, 245);
+  }
+  
+ .signup_container .password-strength .green {
+    color: rgb(3, 130, 3);
+  }
+
+ .signup_container .password-strength .darkgreen {
+    color: rgb(6, 61, 6);
+  }
+  
+
+  
+
+  

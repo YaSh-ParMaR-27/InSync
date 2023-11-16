@@ -1,0 +1,49 @@
+.hometop_container{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hometop_container .Uploadimg{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+
+.hometop_container .uploadbox {
+    /* border: 1px solid purple; */
+    width: 50%;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hometop_container .uploadbox h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+.hometop_container .uploadbox p{
+    font-weight: bold;
+    color: grey;
+}
+
+.hometop_container .uploadbox .btn{
+    padding: 1% 8%;    
+    border: 2px dashed rgb(187, 187, 187);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    color: grey;
+    font-weight: bold;
+}
+.hometop_container .uploadbox .btn:hover{
+   background-color: rgb(210, 210, 210);
+}
+

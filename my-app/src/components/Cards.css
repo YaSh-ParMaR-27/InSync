@@ -1,0 +1,25 @@
+.cards_container{
+    display: flex;
+    padding: 4%;
+    background-color: rgba(53, 186, 166, 0.694);
+    margin-bottom: 4%;
+}
+.cards_container .cards{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 2%;
+    background-color: white;
+    width: 33%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.cards_container .cards p{
+   font-size: large;
+   margin-top: 0;
+}
+
+
